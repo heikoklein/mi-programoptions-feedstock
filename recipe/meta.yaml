@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: mi-programoptions
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/metno/mi-programoptions/archive/v{{ version }}.tar.gz
-  sha256: 2920131371430167f498971adff4632c1eda9ca8c6103dcdee256e7e0131b513
+  sha256: a325f680d7a7e13d0061b6ab96ce09d188eea0073bd17d79605a31d171315832
   folder: source
 
 build:
