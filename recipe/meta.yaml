@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: mi-programoptions
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/metno/mi-programoptions/archive/v{{ version }}.tar.gz
-  sha256: a325f680d7a7e13d0061b6ab96ce09d188eea0073bd17d79605a31d171315832
+  sha256: d662fb0d0a911538f92366353db21b9d49d8abc46bc938ea79fa5dfba9347b06
   folder: source
 
 build:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/metno/mi-programoptions
   license: GPL-2.0-or-later
   license_file: source/LICENSE.txt
-  summary: 'MET Norway program options library'
+  summary: MET Norway program options library
 
 extra:
   recipe-maintainers:
